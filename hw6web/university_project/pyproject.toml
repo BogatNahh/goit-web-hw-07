@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "university-project"
+version = "0.1.0"
+description = ""
+authors = ["Анастасия <17121t2118@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+psycopg2 = "^2.9.10"
+faker = "^36.1.1"
+dockerfile = "^3.4.0"
+sqlalchemy = "^2.0.38"
+alembic = "^1.14.1"
+sqlalchemy-orm = "^1.2.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
